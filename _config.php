@@ -9,10 +9,10 @@ $config = array(
      * Database location/credentials
      */
     "db" => array(
-        "dbname" => "jczajkow",
-        "username" => "jczajkow",
-        "password" => "Rp69s3Wz",
-        "host" => "mysql.agh.edu.pl:3306"
+        "dbname" => "your_db_name",
+        "username" => "your_db_user",
+        "password" => "your_db_password",
+        "host" => "your_db_host:your_db_port"
     ),
     /*
      * TinyMCE lib localization (default: external CacheFly)
@@ -25,7 +25,7 @@ $config = array(
      * should be false and then all other SMTP settings can be ignored.
      */
     "mailing" => array(
-        "sender" => "mailbot@student.agh.edu.pl",
+        "sender" => "mailbot@yourdomain.com",
         "smtp" => array(
             "isSMTP" => false,
             "Host" => 'smtp1.example.com;smtp2.example.com',
@@ -33,7 +33,7 @@ $config = array(
             "Username" => 'user@example.com',
             "Password" => 'secret',
             "SMTPSecure" => 'tls',
-            "Port" => 587
+            "Port" => 123
         )
     )
 
