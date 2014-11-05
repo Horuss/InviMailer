@@ -34,7 +34,7 @@ if (isset($_POST['username']) and isset($_POST['password'])) {
             <h1>Login</h1>
             <label><span>Login:</span><input type="text" name="username"/></label>
             <label><span>Password:</span><input type="password" name="password"/></label>
-            <label><span></span><input type="submit" value="Zaloguj"/></label>
+            <label><span></span><input type="submit" value="Login"/></label>
         </form>
     </div>
 
